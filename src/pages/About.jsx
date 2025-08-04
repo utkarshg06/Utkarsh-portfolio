@@ -14,7 +14,7 @@ const About = () => {
           {/* Profile Image */}
           <div className="flex-shrink-0">
             <img
-              src={'${process.env.PUBLIC_URL}/public/images/utkarsh.jpg'} 
+              src={'${process.env.PUBLIC_URL}/assets/utkarsh.jpg'} 
               alt="Utkarsh Gupta"
               className="w-80 h-110 object-cover rounded-2xl shadow-lg border-4 border-indigo-200 dark:border-indigo-700"
             />
