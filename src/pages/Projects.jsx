@@ -33,7 +33,7 @@ const projects = [
     tech: 'Python, LightGBM, FastAPI',
     tags: ['#AdTech', '#ML', '#FastAPI'],
     description: 'Designed an internal AI workflow demo for Pyramyd.AI, showcasing image collaging from user inputs using segmentation models. Built a responsive UI with automated backend processing to highlight real-time media manipulation capabilities.',
-    link: 'https://github.com/lavyam/PyramydAI-API',
+    link: 'https://github.com/utkarshg06/PyramydAI-API-Project',
   }, 
   {
     title: 'Movie Recommendation System and testing',
@@ -47,7 +47,7 @@ const projects = [
     tech: 'CNN, Tensorflow, Keras, ML, KNN, Logistic Regression, Naive Bayes',
     tags: ['#RecommendationSystem', '#ML', '#CNN', "#SVM"],
     description: 'Developed a machine learning system for accurate brain tumor classification using MRI images. The project enhanced image quality through preprocessing techniques, extracted features via Histogram of Oriented Gradients (HOG), and applied Support Vector Machines (SVM) for classification. This approach enabled early tumor detection, supporting effective treatment planning and improving patient outcomes.',
-    link: 'https://github.com/kartiksingh11/Minor-Project',
+    link: 'https://github.com/utkarshg06/Brain_Tumor_Detection_Using_HOG_and_SVM',
   }, 
 
   
