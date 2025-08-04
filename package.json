@@ -2,7 +2,7 @@
   "name": "utkarsh-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://utkarshg06.github.io/utkarsh-portfolio",
+  "homepage": "https://utkarshg06.github.io/Utkarsh-portfolio",
   "dependencies": {   
     "@headlessui/react": "^2.2.6",
     "@heroicons/react": "^2.2.0",
@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp build/index.html build/404.html",
     "deploy": "gh-pages -d build --add --message 'Deploy updated portfolio'"
 
   },

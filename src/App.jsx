@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/Utkarsh-portfolio">
       <div className="min-h-screen bg-gray-100 dark:bg-gray-950 text-gray-800 dark:text-gray-100 transition-colors duration-300">
         <Navbar />
 
@@ -30,3 +30,4 @@ const App = () => {
 };
 
 export default App;
+
