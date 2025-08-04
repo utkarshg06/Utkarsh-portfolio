@@ -1,6 +1,6 @@
 import React from 'react';
 import { GraduationCap } from 'lucide-react';
-
+import portimage from '../assets/utkarsh.jpg';
 const About = () => {
   return (
     <section className="max-w-6xl mx-auto px-6 py-20">
@@ -14,7 +14,7 @@ const About = () => {
           {/* Profile Image */}
           <div className="flex-shrink-0">
             <img
-              src={'${process.env.PUBLIC_URL}/images/utkarsh.jpg'} 
+              src={portimage} 
               alt="Utkarsh Gupta"
               className="w-80 h-110 object-cover rounded-2xl shadow-lg border-4 border-indigo-200 dark:border-indigo-700"
             />
