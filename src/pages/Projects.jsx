@@ -2,11 +2,11 @@ import React from 'react';
 
 const publications = [
   {
-    title: 'Psychological Trait Analysis Using Tweets (IEEE InC4 \'24)',
+    title: 'Psychological Trait Analysis Using Tweets (IEEE ICAAIC)',
     tech: 'Python, Deep Learning, NLP',
     tags: ['#NLP', '#MentalHealth', '#DeepLearning', '#Publication'],
     description:
-      'Co-authored a peer-reviewed paper accepted at IEEE InC4 2024. Proposed a hybrid CNN-LSTM model to detect psychological traits from Twitter data with 99%+ accuracy.',
+      'Co-authored a peer-reviewed paper accepted at IEEE under ICAAIC. Proposed a hybrid CNN-LSTM model to detect psychological traits from Twitter data with 99%+ accuracy.',
     link: 'https://ieeexplore.ieee.org/document/10574935',
   },
 ];
