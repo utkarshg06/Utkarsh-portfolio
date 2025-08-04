@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Utkarsh-portfolio/static/css/main.ad37e911.css",
-    "main.js": "/Utkarsh-portfolio/static/js/main.2d250b3c.js",
+    "main.js": "/Utkarsh-portfolio/static/js/main.a40dd0df.js",
     "static/media/Utkarsh_Resume.pdf": "/Utkarsh-portfolio/static/media/Utkarsh_Resume.45c7dc7dda4ea5a2e6a4.pdf",
     "index.html": "/Utkarsh-portfolio/index.html",
     "main.ad37e911.css.map": "/Utkarsh-portfolio/static/css/main.ad37e911.css.map",
-    "main.2d250b3c.js.map": "/Utkarsh-portfolio/static/js/main.2d250b3c.js.map"
+    "main.a40dd0df.js.map": "/Utkarsh-portfolio/static/js/main.a40dd0df.js.map"
   },
   "entrypoints": [
     "static/css/main.ad37e911.css",
-    "static/js/main.2d250b3c.js"
+    "static/js/main.a40dd0df.js"
   ]
 }
