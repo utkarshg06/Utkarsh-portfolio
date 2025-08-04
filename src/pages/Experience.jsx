@@ -3,7 +3,7 @@ import { Briefcase, Sparkles } from 'lucide-react';
 
 const experiences = [
   {
-    title: 'Student Business Consultant',
+    title: 'Student Analyst & Consultant',
     company: 'Duke Health',
     duration: 'March 2025 – May 2025',
     details: [
@@ -12,7 +12,7 @@ const experiences = [
     ]
   },
   {
-    title: 'Data Analytics Intern',
+    title: 'Data Analyst Intern',
     company: 'HCLTech',
     duration: 'Jan 2024 – Jun 2024',
     details: [
@@ -23,7 +23,7 @@ const experiences = [
     ]
   },
   {
-    title: 'Operations Consulting Intern',
+    title: 'Data & Operations Analyst Intern',
     company: 'Siemens Logistics – IT',
     duration: 'May 2023 – Jul 2023',
     details: [
