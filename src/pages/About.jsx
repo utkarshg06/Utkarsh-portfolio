@@ -22,22 +22,12 @@ const About = () => {
 
           {/* About Description */}
           <div className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl">
-            <p>
-              I am <strong>Utkarsh Gupta</strong>, a data-driven problem solver with a background in Computer Science and a strategic edge honed through my M.S. in Quantitative Management: Business Analytics at <strong>Duke University’s Fuqua School of Business</strong>.
-              I thrive at the intersection of analytics, business strategy, and stakeholder impact, turning raw data into insights that drive real-world decisions.
-            </p>
-            <br />
-            <p>
-              Whether leading capstone projects on Medicaid expansion, building fraud detection pipelines, or translating statistical models for C-suite stakeholders, I have consistently brought structure to ambiguity and clarity to complexity.
-            </p>
-            <br />
-            <p>
-              I bring a rare balance: a technical foundation in Python, SQL, and machine learning, combined with a consulting mindset shaped by storytelling, client communication, and business-first thinking. My work is not just about crunching numbers, it’s about influencing outcomes.
-            </p>
-            <br />
-            <p>
-              I am looking to join teams where data is not just a tool, but a core driver of innovation. If you're solving hard problems and need someone who can ask the right questions, challenge assumptions, and deliver with precision, I’d love to connect.
-            </p>
+            <p style={{ marginBottom: '1.5em' }}>
+              I am <strong>Utkarsh Gupta</strong>, a data enthusiast and business strategist passionate about turning complex data into measurable impact. Currently pursuing my M.S. in Quantitative Management: Business Analytics at Duke University, I bring a strong foundation in machine learning, causal inference, and cloud-scale data engineering, paired with the ability to translate insights into strategic outcomes. </p> 
+            
+            <p style={{ marginBottom: '1.5em' }}>My experience spans healthcare, technology, and industrial systems. At Duke Health, I identified $3.2M in cost savings and improved early disease detection by 15%, shaping Medicaid outreach for 50K+ underserved patients. At HCLTech, I uncovered behavioral patterns from 100GB+ of Bing interaction data, driving a 20% increase in engagement and streamlining pipelines to cut processing time by 40%. At Siemens, my optimizations boosted baggage system throughput by 20% and scalability by 14%, directly enhancing mission-critical automation. </p>
+            
+            <p>Beyond industry, I have published research at IEEE on detecting psychological traits from social media with 99% accuracy, built causal models to improve marketing ROI, and designed a semantic analytics engine that ranks vendors with decision-grade precision. Across every role, I combine technical mastery (Python, R, SQL, PyTorch, Spark, AWS/GCP/Azure) with a focus on clear communication and strategic decision-making. I thrive where analytics meets strategy, delivering solutions that not only predict but transform business performance. </p>
 
             {/* Contact Buttons */}
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
@@ -77,7 +67,7 @@ const About = () => {
               <p className="text-gray-600 dark:text-gray-400 text-sm">M.S. in Quantitative Management: Business Analytics, May 2025</p>
               <ul className="mt-2 text-sm text-gray-700 dark:text-gray-300 list-disc list-inside space-y-1">
                 <li>Capstone Lead on Medicaid Expansion strategy project</li>
-                <li>Focused coursework in AI/ML, Strategic Analytics, Fraud Detection, Cyber Risk</li>
+                <li>Focused coursework in AI/ML, Strategic Analytics, Fraud Detection, Cyber Risk, Data Infrastructure, Enterprise Risk Management, Data Visualizations</li>
                 <li>Hands-on work in stakeholder-facing model delivery and business impact</li>
               </ul>
             </div>
@@ -91,8 +81,7 @@ const About = () => {
               <p className="text-gray-600 dark:text-gray-400 text-sm">B.Tech in Computer Science & Engineering, June 2024</p>
               <ul className="mt-2 text-sm text-gray-700 dark:text-gray-300 list-disc list-inside space-y-1">
                 <li>Capstone in Mental Health NLP & Brain Tumor Detection using ML</li>
-                <li>Leadership: PR Head – TEDx Club, Technical Society Executive</li>
-                <li>Hosted university-wide workshops and peer-led research meetups</li>
+                <li>Leadership: PR Head @ GirlUp, Co-Head @ TedX Club, PR Committee Head @ Student Affairs </li>
               </ul>
             </div>
           </div>

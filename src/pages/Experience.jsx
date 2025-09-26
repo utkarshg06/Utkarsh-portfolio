@@ -12,9 +12,9 @@ const experiences = [
     ]
   },
   {
-    title: 'Data Analyst Intern',
+    title: 'Business & Product Analyst Intern',
     company: 'HCLTech',
-    duration: 'Jan 2024 – Jun 2024',
+    duration: 'Nov 2023 – Jun 2024',
     details: [
       'Optimized Bing Search algorithms using large-scale clickstream data, increasing user engagement by 20%.',
       'Designed and deployed robust data pipelines processing 100GB+ of structured and unstructured data daily.',
@@ -24,12 +24,32 @@ const experiences = [
   },
   {
     title: 'Data & Operations Analyst Intern',
-    company: 'Siemens Logistics – IT',
-    duration: 'May 2023 – Jul 2023',
+    company: 'Siemens – IT',
+    duration: 'Jan 2023 – Jul 2023',
     details: [
       'Assessed throughput analytics across airport baggage handling systems using SQL and Python.',
       'Delivered performance insights via Basic Bag IQ for microservices scaling, improving process efficiency by 14%.',
       'Built Java-based error-checking tools that reduced false flagging in live data streams by 15%.'
+    ]
+  }, 
+  {
+    title: 'Software Engineer Intern',
+    company: 'Jastech Systems Pvt Ltd.',
+    duration: 'Dec 2022 – Jan 2023',
+    details: [
+      'Developed and optimized internal software tools to automate reporting and data workflows, reducing manual processing time by 35% and improving team efficiency.',
+      'Implemented Python-based monitoring scripts to validate power distribution system parameters, enhancing diagnostic accuracy and cutting error detection time by 15%.',
+      'Collaborated with senior engineers to design dashboards (Power BI/SQL) for real-time performance tracking, enabling faster decision-making for client projects.'
+    ]
+  }, 
+  {
+    title: 'Software Developer Intern',
+    company: 'Sunbeam Lightweighting Solutions Pvt Ltd.',
+    duration: 'May 2022 – Sep 2022',
+    details: [
+      'Engineered and deployed inventory tracking and monitoring modules in Java/SQL, reducing manual errors by 30% and improving reporting speed by 25% across production units.',
+      'Developed Python scripts to analyze casting machine logs, enabling early detection of bottlenecks and driving a 12% improvement in throughput efficiency.',
+      'Optimized database queries and error-handling routines, cutting monitoring system downtime by 15% and enhancing overall operational reliability.'
     ]
   }
 ];
@@ -37,15 +57,15 @@ const experiences = [
 const skillCategories = [
   {
     category: 'Languages & Tools',
-    skills: ['SQL', 'Python', 'R', 'Advanced Excel', 'Jupyter', 'Java', 'Java Script', 'C++']
+    skills: ['SQL', 'Python', 'R', 'Advanced Excel', 'Jupyter', 'Java', 'Java Script', 'C++', 'noSQL', 'Node.js']
   },
   {
     category: 'Data & BI Platforms',
-    skills: ['Power BI', 'Tableau', 'Looker Studio', 'Matplotlib', 'Numpy', 'Seaborn']
+    skills: ['Power BI', 'Tableau', 'Looker Studio', 'Matplotlib', 'Numpy', 'Seaborn', 'Pandas', 'Jira']
   },
   {
     category: 'Cloud Platforms',
-    skills: ['Spark', 'HPC', 'Jira','DataBricks', 'AWS', 'Azure', 'GCP' ]
+    skills: ['Spark', 'HPC','DataBricks', 'AWS', 'Azure', 'GCP' ]
   },
   {
     category: 'Analytics & Methods',
@@ -53,12 +73,12 @@ const skillCategories = [
       'Market Research', 'Business Solutions', 'A/B Testing', 'Predictive Modeling',
       'Regression', 'Forecasting', 'Clustering', 'Data Mining', 'Stakeholder Management',
       'Hypothesis Testing', 'Neural Networks', 'Deep Learning', 'Executive Dashboarding',
-      'Data Synthesis', 'Financial Reporting'
+      'Data Synthesis', 'Financial Reporting', 'Data Warehousing', 'Feature Engineering', 'Causal Inference'
     ]
   },
   {
     category: 'ML & NLP',
-    skills: [ 'Supervised / Unsupervised Learning', 'NLP','BERT','TensorFlow','PyTorch','Keras','Scikit-learn','MLOps']
+    skills: [ 'Supervised / Unsupervised Learning', 'NLP','BERT','TensorFlow','PyTorch','Keras','scikit-learn','MLOps']
   }
 ];
 
@@ -79,7 +99,7 @@ const Experience = () => {
           <Briefcase className="w-10 h-10" /> Experience
         </h2>
         <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
-          Real-world impact through internships in analytics and consulting across global organizations.
+          Real-world impact through internships in software development, analytics and consulting across global organizations.
         </p>
       </div>
 
